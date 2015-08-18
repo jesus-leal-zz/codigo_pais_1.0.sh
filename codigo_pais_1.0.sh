@@ -38,7 +38,6 @@ echo -e "\e[00;36m #     Sistema de concatenação de código do país para cria
 echo -e "\e[00;36m #                                                                            #\e[00m"
 echo -e "\e[00;36m ##############################################################################\e[00m"
 echo ""
-cat /home/.codigo_pais_all.sh > /home/$USER/.codigo_pais.sh ;
 TEST=`ls celular.csv 2> /dev/null`;
 ERRO=`echo $?`;
 if [ $ERRO == "0" ] ; then
