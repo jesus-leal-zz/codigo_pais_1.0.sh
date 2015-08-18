@@ -106,7 +106,7 @@ case $N in
 7) SMS10000 ;;
 8) SMS20000 ;;
 9) SMS50000 ;;
-r) clear ; source .codigo_pais.sh ;;
+r) clear ; source .codigo_pais_1.0.sh ;;
 e) clear ; exit ;;
 *)
 	echo ""
