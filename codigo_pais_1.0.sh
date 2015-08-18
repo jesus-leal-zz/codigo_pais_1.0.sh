@@ -7,9 +7,9 @@ trap "" 2 20 ;
 #### Este script tem a funcionalidade de criar lista com o codigo do pais,
 #### acrescentar uma virgula no final de cada numero da lista e ainda gerar uma 
 #### frase para cada linha após o numero e a virgula com 1 espaço.
-#### 554299123456, Frase para enviar o sms aos clientes <-- Para enviar pelo smstools e web
-#### 554299123456, <---- Para enviar pelo script php web
-#### 554299123456 <---- Para enviar terminal linux
+#### 554299123456, Frase para enviar o sms aos clientes <-- Para enviar pela web e linha de comando
+#### 554299123456, <---- Para enviar pela web
+#### 554299123456 <---- Para enviar pela linha de comando
 ####
 #### Um arquivo com o nome de "celular.csv" precisa estar junto do scprit
 #### os numeros precisam estar no seguinte formato um embaixo do outro
