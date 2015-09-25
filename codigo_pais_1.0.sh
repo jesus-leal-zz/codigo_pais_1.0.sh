@@ -1,15 +1,15 @@
 #!/bin/bash
 trap "" 2 20 ;
 #### 
-#### Para executar o script: ./codigo_pais_1.0.sh
-#### Alterar as permissões: chmod 755 codigo_pais_1.0.sh
+#### Para executar o script: ./script
+#### Alterar as permissões: chmod 755 script
 ####
 #### Este script tem a funcionalidade de criar lista com o codigo do pais,
 #### acrescentar uma virgula no final de cada numero da lista e ainda gerar uma 
 #### frase para cada linha após o numero e a virgula com 1 espaço.
-#### 554299123456, Frase para enviar o sms aos clientes <-- Para enviar pela web e linha de comando
-#### 554299123456, <---- Para enviar pela web
-#### 554299123456 <---- Para enviar pela linha de comando
+#### 554299123456, Frase para enviar o sms aos clientes <-- Para enviar pelo smstools e web
+#### 554299123456, <---- Para enviar pelo script php web
+#### 554299123456 <---- Para enviar terminal linux
 ####
 #### Um arquivo com o nome de "celular.csv" precisa estar junto do scprit
 #### os numeros precisam estar no seguinte formato um embaixo do outro
@@ -667,7 +667,7 @@ SMS200() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -1135,7 +1135,7 @@ SMS500() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -1603,7 +1603,7 @@ SMS1000() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -2071,7 +2071,7 @@ SMS2500() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -2539,7 +2539,7 @@ SMS5000() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -3007,7 +3007,7 @@ SMS10000() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -3475,7 +3475,7 @@ SMS20000() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
@@ -3943,7 +3943,7 @@ SMS50000() {
 						sleep 0.5
 						echo "Nenhuma mensagem adicionada."
 						sleep 1
-					W=1 ;
+					R=1 ;
 					else
 						echo ""
 						echo "Opção inválida! Vamos tentar novamente ..."
